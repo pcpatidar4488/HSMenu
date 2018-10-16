@@ -5,11 +5,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="generatebarcode.com.scanhotelmenu.MainActivity">
-
-    <TextView
+    tools:context="generatebarcode.com.scanhotelmenu.activity.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floating_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:onClick="add"
+        android:background="@color/button_white"
+        android:tint="@color/button_white"
+        app:backgroundTint="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/icon_barcode_scanner"
+        tools:ignore="OnClick" />
+    </RelativeLayout>
 
 </android.support.design.widget.CoordinatorLayout>
