@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "565778187886",
+    "firebase_url": "https://shmenu-pc4488.firebaseio.com",
+    "project_id": "shmenu-pc4488",
+    "storage_bucket": "shmenu-pc4488.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565778187886:android:15085cf843e0bdee",
+        "android_client_info": {
+          "package_name": "generatebarcode.com.scanhotelmenu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565778187886-ut3s2riraqd17pu0i2unbc7cg15tkn58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "generatebarcode.com.scanhotelmenu",
+            "certificate_hash": "0351018c765a54437352514d85656efb9a6131bc"
+          }
+        },
+        {
+          "client_id": "565778187886-034vs90mh1mkpk5fgjqang00vasgiafb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMh7h7Gx7YfCvieraosNDjJ6x50VwTROI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565778187886-034vs90mh1mkpk5fgjqang00vasgiafb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
